@@ -1,0 +1,153 @@
+.wrapper{
+  width: 100vw;
+  height: 90vh;
+}
+
+.header-home{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.body-eventos{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.container{
+  max-width: 90vw;
+}
+.title-perfil{
+  margin-left: 3rem;
+  font-size: 32px;
+  text-align: left;
+  font-family: Nexa-Bold;
+  letter-spacing: 0px;
+  color: #231F20;
+  text-transform: capitalize;
+  opacity: 1;
+}
+
+.title-table{
+  margin-left: 3rem;
+  font-size: 28px;
+  text-align: left;
+  font-family: Nexa-Bold;
+  letter-spacing: 0px;
+  color: #231F20;
+  text-transform: capitalize;
+  opacity: 1;
+}
+
+mat-form-field {
+  width: 100% !important;
+  //height: 48px !important;
+  text-align: left !important;
+}
+
+.mat-input {
+  margin-bottom: 0px;
+}
+
+//Estilos para el checkbox
+::ng-deep .mdc-checkbox__background {
+  transform: scale(1.5);
+  background-color: #F6F4F5;
+  border: 1px solid #F6F4F5;
+}
+
+::ng-deep .mat-mdc-checkbox.mat-mdc-checkbox-checked .mdc-checkbox__background, .mdc-checkbox__ripple {
+  background-color: #0092B8 !important;
+  border-color: #0092B8 !important;
+}
+
+.title-publico {
+  font-size: 18px;
+  text-align: center;
+  font-family: Nexa-Bold;
+  letter-spacing: 2px;
+  color: #231F20;
+  opacity: 1;
+}
+.checkbox-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-left: 3px;
+  //gap: 10px;
+}
+
+.checkbox-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 70%;
+  margin-left: 5px;
+}
+
+.d-checkbox-nombre {
+  text-align: left;
+  font-family: Nexa;
+  font-size: 16px;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin-left: 10px;
+}
+
+.section-buttons {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between !important;
+  align-items: center;
+  padding-bottom: 3rem;
+}
+
+.btn-primary {
+  width: 208px;
+  height: 48px;
+  background-color: #0092B8 !important;
+  border-color: #0092B8 !important;
+  border-radius: 8px !important;
+  opacity: 1;
+  //Fuente
+  text-align: center;
+  font-family: Nexa-Bold;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.btn-primary:hover {
+  background-color: #017895 !important;
+  border-color: #017895 !important;
+
+}
+
+.btn-danger {
+  width: 208px;
+  height: 48px;
+  border-radius: 8px !important;
+  opacity: 1;
+  //Fuente
+  text-align: center;
+  font-family: Nexa-Bold;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+}
